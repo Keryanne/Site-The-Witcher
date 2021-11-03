@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@font-face {
+    font-family: Raleway;
+    src: url("../font/Raleway-Bold.ttf");
+    font-weight: 700;
+}
+
+body{
+    margin: 0;
+    font-family: arial,sans-serif;
+    background-color: #fff;
+}
+
+/* Style header */
+
+header{
+    background: url("../images/bande-thewither3.jpg") no-repeat center;
+    background-size: cover;
+    margin: 0;
+    height: 450px;
+    display: flex;
+    margin: 0;
+    color: rgb(221, 219, 219);
+    width:auto;
+}
+
+/* Style header */
+
+/* Style menu */
+
+nav{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: auto;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 5px 0px 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    font-family: 'Syne Mono', monospace;
+    font-size: larger;
+}
+
+nav li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(168, 166, 166);
+}
+
+.logo img{
+    width: 6%;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+.boutons img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Style menu */
+
+/* Style centrale */
+
+main{
+    background: url("../images/wallpaper-1.jpg") no-repeat center;
+    background-size: cover;
+    padding: 3%;
+}
+
+table{
+    margin:auto;
+    border-collapse:collapse;
+    width:70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+caption{
+    font-size:30px;
+    padding:5px;
+    text-align: left;
+    font-family: 'Syne Mono', monospace;
+    color: grey;
+    background-color: rgba(0, 0, 0, 0.542);
+}
+
+table, td{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+}
+
+tr{
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+tr:hover{
+    background-color: rgba(179, 179, 179, 0.541);
+}
+
+td{
+    padding:10px;
+}
+
+.col-1{
+    background-color: rgb(197, 197, 197, 0.541);
+    color: rgb(88, 88, 88);
+    width: 30%;
+}
+
+/* Style centrale */
+
+/* Style footer */
+
+footer{
+    height: 50px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p{
+    text-align: center;
+    color: rgb(168, 166, 166);
+    font-family: 'Syne Mono', monospace;
+  }
+
+  /* Style footer */

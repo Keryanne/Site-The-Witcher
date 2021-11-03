@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px){
+
+    nav{
+        font-size: smaller;
+    }
+
+    nav a{
+        display: inline;
+    }
+
+    header {
+        width: 100%;
+        height: 300px;
+    }
+
+    .logo img{
+        display: none;
+    }
+
+    .centre{
+        justify-content: left;
+    }
+
+    main{
+        width: 95%;
+    }
+}

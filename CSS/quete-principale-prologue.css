@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: arial,sans-serif;
+    background-color: #fff;
+}
+
+/* Style header */
+
+header{
+    background: url("../images/bande-thewither3.jpg") no-repeat center;
+    background-size: cover;
+    margin: 0;
+    height: 450px;
+    display: flex;
+    color: rgb(221, 219, 219);
+    width:auto;
+}
+
+/* Style header */
+
+/* Style menu */
+
+nav{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: auto;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 5px 0px 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    font-family: 'Syne Mono', monospace;
+}
+
+nav li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(168, 166, 166);
+}
+
+.logo img{
+    width: 6%;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+.boutons img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Style menu */
+
+/* Partie centrale */
+
+main{
+    max-width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-size: x-large;
+    font-family: 'Syne Mono', monospace;
+}
+
+/* Partie centrale */
+
+
+/* Style footer */
+
+footer{
+    height: 50px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p{
+    text-align: center;
+    color: rgb(168, 166, 166);
+    font-family: 'Syne Mono', monospace;
+  }
+
+  /* Style footer */
